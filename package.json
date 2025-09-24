@@ -1,0 +1,26 @@
+{
+  "name": "crawdata",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hoangphuc0062/crawData#readme",
+  "bugs": {
+    "url": "https://github.com/hoangphuc0062/crawData/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangphuc0062/crawData.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "nodemon": "^3.1.10",
+    "puppeteer": "^24.22.2"
+  }
+}
